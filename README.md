@@ -2,6 +2,8 @@
 
 A list of frameworks which receive HTML snippets from the server.
 
+# Current hype: JSON over the wire
+
 Most current frameworks decouple the backend and the frontend:
 The backend provides an API (REST or GraphQL) and sends data (usualy in JSON data format)
 to the client. The client renders this data via HTML.
@@ -20,6 +22,8 @@ This has several benefits:
 * With tools like react-native you can create native apps for mobile devices.
 * ...
 
+# New hype: HTML over the wire
+
 Like infected with gold fever, people seem to be incapable to differentiate whether these benefits are worth the extra effort.
 
 I am very happy that today (autumn 2020) more developers realize that there is a way to keep things simple by sending html snippets/fragements
@@ -36,6 +40,22 @@ Drawbacks of html-over-the-wire:
 
 * You can't write offline-first web apps.
 * You can't write native apps.
+
+
+# Libraries
+
+* [htmx](https://github.com/bigskysoftware/htmx)
+* [unpoly](https://github.com/unpoly/unpoly)
+
+# WOL
+
+Some other articles I wrote: [Thomas working out loud](https://github.com/guettli/wol)
+
+# Feedback needed!
+
+Do you know a fancy html-over-the-wire library, or is there something wrong or missing?
+
+Please speak up: Create an issue at github, or send me an email: guettliml@thomas-guettler.de
 
 
 
