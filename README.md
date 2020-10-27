@@ -11,7 +11,7 @@ to the client. The client renders this data via HTML.
 Popular examples: React, Angular, Vue, ....
 
 ```
-Server ---[JSON]--> Client
+Server ---[JSON]--> Client (React/Angular/Vue) --> HTML
 ```
 
 This has several benefits:
@@ -23,6 +23,10 @@ This has several benefits:
 * ...
 
 # New hype: HTML over the wire
+
+```
+Server ---[HTML]--> Client
+```
 
 Like infected with gold fever, people seem to be incapable to differentiate whether these benefits are worth the extra effort.
 
