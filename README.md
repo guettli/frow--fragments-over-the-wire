@@ -29,6 +29,8 @@ Like infected with gold fever, people seem to be incapable to differentiate whet
 I am very happy that today (autumn 2020) more developers realize that there is a way to keep things simple by sending html snippets/fragements
 from the server to the client.
 
+Let's start the next hype: HTML over the wire
+
 I think html-over-the-wire has these benefits:
 
 * Much smaller technology stack. It is much easier to learn (for example onboarding new employees).
