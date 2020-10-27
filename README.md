@@ -35,6 +35,7 @@ I think html-over-the-wire has these benefits:
 * Input validation needs to be done on the server side anyways. No need to re-invent this in the frontend. If you use a library like the django forms library you get both in one step: A form in HTML format and a way to validate the input the server receives.
 * You can stick to one programming language. I like Python, it is simple and obvious. If I can avoid JavaScript, than I will do it.
 * Testing form and input handling is simplified. For example you can use fake client to test your form handling [Django Client.post()](https://docs.djangoproject.com/en/dev/topics/testing/tools/#django.test.Client.post). 
+* SEO: You can be sure that all content which is not loaded ondemand/lazy is visible and indexable by search engine bots. Modern search engines can execute JavaScript, but it is bit unclear how far this goes. If you send JSON from the server to the client, it could be the case that a search engine does not index this data properly. 
 
 Drawbacks of html-over-the-wire:
 
