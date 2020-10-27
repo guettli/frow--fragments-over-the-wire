@@ -42,7 +42,7 @@ I think html-over-the-wire has these benefits:
 Drawbacks of html-over-the-wire:
 
 * You can't write offline-first web apps.
-* You can't write native apps.
+* You could write a native app this way (with the help of a wrapper), but it is likely that you won't get it into the Apple Store.
 
 
 # Libraries
