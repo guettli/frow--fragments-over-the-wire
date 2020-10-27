@@ -48,6 +48,10 @@ Drawbacks of html-over-the-wire:
 * [htmx](https://github.com/bigskysoftware/htmx)
 * [unpoly](https://github.com/unpoly/unpoly)
 
+# Related
+
+* [We're breaking up with JavaScript Frontends](http://triskweline.de/unpoly-rugb/#/). Contains nice charts visualizing the growth of complexity during the last years.
+
 # WOL
 
 Some other articles I wrote: [Thomas working out loud](https://github.com/guettli/wol)
