@@ -52,7 +52,7 @@ Drawbacks of html-over-the-wire:
 
 # Related
 
-* [We're breaking up with JavaScript Frontends](http://triskweline.de/unpoly-rugb/#/). Contains nice charts visualizing the growth of complexity during the last years.
+* [We're breaking up with JavaScript Frontends](http://triskweline.de/unpoly-rugb/#/). These slides contain nice charts visualizing the growth of complexity during the last years.
 
 # WOL
 
