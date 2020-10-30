@@ -17,7 +17,7 @@ Server ---[JSON]--> Client (React/Angular/Vue) --> HTML
 This has several benefits:
 
 * Developers don't need to know everything. Some can focus on the backend, some can focus on the frontend.
-* The same API could be used for several purposes: Once by the frontned in the browser, once for intergrating a third party application, ...
+* The same API could be used for several purposes: Once by the frontned in the browser, once for intergrating a third party application.
 * With ServiceWorkers and IndexedDB you can write web applications which work even if the network connection is down. Example: You can create a blog post while being offline. It gets uploaded as soon as you are online again.
 * With tools like react-native you can create native apps for mobile devices.
 * ...
@@ -28,12 +28,12 @@ This has several benefits:
 Server ---[HTML]--> Client
 ```
 
-Like infected with gold fever, people seem to be incapable to differentiate whether these benefits are worth the extra effort.
+Like infected with gold fever, people seem to be incapable to differentiate whether JS-over-the-wire is worth the extra effort.
 
 I am very happy that today (autumn 2020) more developers realize that there is a way to keep things simple by sending html snippets/fragements
 from the server to the client.
 
-Let's start the next hype: HTML over the wire
+The next hype is coming: HTML over the wire
 
 I think html-over-the-wire has these benefits:
 
