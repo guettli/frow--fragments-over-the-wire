@@ -70,7 +70,7 @@ Example:
 
 # Conclusion
 
-Reloading the whole page via XMLHttpRequest is not enough. Turbolinks is out. HTMX is simple, that's nice, but Unpoly gives me much more.
+Reloading the whole page via XMLHttpRequest is not enough. Turbolinks is out. HTMX is simple, that's nice, but Unpoly gives me much more. I will use Unpoly.
 
 
 # Related
