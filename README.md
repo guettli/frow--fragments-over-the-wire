@@ -18,7 +18,6 @@ This has several benefits:
 
 * Developers don't need to know everything. Some can focus on the backend, some can focus on the frontend.
 * The same API could be used for several purposes: Once by the frontned in the browser, once for intergrating a third party application.
-* With ServiceWorkers and IndexedDB you can write web applications which work even if the network connection is down. Example: You can create a blog post while being offline. It gets uploaded as soon as you are online again.
 * With tools like react-native you can create native apps for mobile devices.
 * ...
 
@@ -39,20 +38,40 @@ I think html-over-the-wire has these benefits:
 
 * Much smaller technology stack. It is much easier to learn (for example onboarding new employees).
 * Input validation needs to be done on the server side anyways. No need to re-invent this in the frontend. If you use a library like the django forms library you get both in one step: A form in HTML format and a way to validate the input the server receives.
-* You can stick to one programming language. I like Python, it is simple and obvious. If I can avoid JavaScript, than I will do it.
-* Testing form and input handling is simplified. For example you can use fake client to test your form handling [Django Client.post()](https://docs.djangoproject.com/en/dev/topics/testing/tools/#django.test.Client.post). 
+* You can stick to one programming language. If I can avoid JavaScript, than I will avoid it.
+* Testing is simplified. You don't need to test your JS code, if there is no JS code.
 * SEO: You can be sure that all content which is not loaded ondemand/lazy is visible and indexable by search engine bots. Modern search engines can execute JavaScript, but it is bit unclear how far this goes. If you send JSON from the server to the client, it could be the case that a search engine does not index this data properly. 
-
-Drawbacks of html-over-the-wire:
-
-* You can't write offline-first web apps.
-* You could write a native app this way (with the help of a wrapper), but it is likely that you won't get it into the Apple Store.
-
 
 # Libraries
 
+* [turbolinks](https://github.com/turbolinks/turbolinks)
 * [htmx](https://github.com/bigskysoftware/htmx)
 * [unpoly](https://github.com/unpoly/unpoly)
+
+# Turbolinks
+
+[turbolinks](https://github.com/turbolinks/turbolinks) reloads the whole page with a XMLHttpRequest. If this page contains additionaly sources (like a new JS/CSS file), then Turbolinks loads it. 
+
+# HTMX
+
+[htmx](https://github.com/bigskysoftware/htmx) is the successor to intercooler.js. It swaps parts of the page (not the whole page like Turbolinks).
+
+Example:
+
+```
+<button hx-post="/clicked" hx-swap="outerHTML">
+    Click Me
+  </button>
+  ```
+
+# Unpoly
+
+[Unpoly](https://github.com/unpoly/unpoly) allows you to swap parts of the page, but provides many additional features.
+
+# Conclusion
+
+Reloading the whole page via XMLHttpRequest is not enough. Turbolinks is out. HTMX is simple, that's nice, but Unpoly gives me much more.
+
 
 # Related
 
