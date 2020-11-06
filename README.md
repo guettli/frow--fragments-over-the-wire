@@ -68,6 +68,12 @@ Example:
 
 [Unpoly](https://github.com/unpoly/unpoly) allows you to swap parts of the page, but provides many additional features.
 
+Some of the additional features:
+
+* Faster response times: Outsmart latency by preloading pages, following links earlier, caching responses and keeping a persistent CSS / JS environment.
+* Branch off interactions into modals, popups or drawers. Return to the main page when you're done.
+* Validate forms against server rules while filling in fields.
+
 # Conclusion
 
 Reloading the whole page via XMLHttpRequest is not enough. Turbolinks is out. HTMX is simple, that's nice, but Unpoly gives me much more. I will use Unpoly.
