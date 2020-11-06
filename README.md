@@ -1,6 +1,6 @@
 # HTML over the wire
 
-A list of frameworks which receive HTML snippets from the server.
+A list of web frameworks which receive HTML snippets from the server.
 
 # Current hype: JSON over the wire
 
