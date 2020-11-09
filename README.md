@@ -46,6 +46,7 @@ I think html-over-the-wire has these benefits:
 
 * [turbolinks](https://github.com/turbolinks/turbolinks)
 * [htmx](https://github.com/bigskysoftware/htmx)
+* [Stimulus](https://stimulusjs.org/)
 * [unpoly](https://github.com/unpoly/unpoly)
 
 # Turbolinks
@@ -63,6 +64,12 @@ Example:
     Click Me
   </button>
   ```
+
+# Stimulus
+
+You sprinkle your HTML with controller, target, and action attributes. Then you write a compatible controller to process the event.
+
+It looks dated, since the last release is almost two years old (Januaryx 2019).
 
 # Unpoly
 
