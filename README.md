@@ -89,6 +89,7 @@ Reloading the whole page via XMLHttpRequest is not enough. Turbolinks is out. HT
 # Related
 
 * [We're breaking up with JavaScript Frontends](http://triskweline.de/unpoly-rugb/#/). These slides contain nice charts visualizing the growth of complexity during the last years.
+* [Marcus Obst: New Wave of HTML](https://marcus-obst.de/wiki/Javascript%20-%20New%20Wave%20of%20HTML)
 
 # WOL
 
