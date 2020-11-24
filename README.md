@@ -1,6 +1,18 @@
 # HTML over the wire
 
-A list of web frameworks which receive HTML snippets from the server.
+# What is "html-over-the-wire"?
+
+To understand html-over-the-wire I would like to have a short look at the history of web development.
+
+There were:
+
+* The old way: Full page
+* Current hype: JSON over the wire
+* Countermovement: static site generators
+
+# The old way: Full page
+
+
 
 # Current hype: JSON over the wire
 
@@ -21,18 +33,31 @@ This has several benefits:
 * With tools like react-native you can create native apps for mobile devices.
 * ...
 
-# New hype: HTML over the wire
+# Countermovement: static site generators
+
+If you internet page is just a digital business card, you don't need dynmic content. Even for blogs withs up to
+some new pages per week you don't need an interactive solution. 
+
+SSG (static site generators) 
+
+
+# HTML over the wire
+
+Different use-cases need different solutions. And I think most software projects are between both ends.
+
+As soon as you want to receive some input from the user, the SSG approach with pure static content does not work anymore.
+
+For big companies, which have several software development teams, the clear cut between front-end and back-end is fine.
+
+But for mid-sized companies this cut can introduce an additional overhead.
 
 ```
 Server ---[HTML]--> Client
 ```
 
-Like infected with gold fever, people seem to be incapable to differentiate whether JS-over-the-wire is worth the extra effort.
 
 I am very happy that today (autumn 2020) more developers realize that there is a way to keep things simple by sending html snippets/fragements
 from the server to the client.
-
-The next hype is coming: HTML over the wire
 
 I think html-over-the-wire has these benefits:
 
