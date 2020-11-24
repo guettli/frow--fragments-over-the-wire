@@ -1,5 +1,6 @@
 # HTML over the wire
 
+
 # What is "html-over-the-wire"?
 
 To understand html-over-the-wire I would like to have a short look at the history of web development.
@@ -7,14 +8,19 @@ To understand html-over-the-wire I would like to have a short look at the histor
 There were:
 
 * The old way: Full page
-* Current hype: JSON over the wire
+* Current hype: SPA (JSON over the wire)
 * Countermovement: static site generators
 
 # The old way: Full page
 
 
+In the "good old days" before SPA (Single Page Applications) the browser loaded whole pages from the server.
 
-# Current hype: JSON over the wire
+The user could send data to the serve by filling out a form, and [Post/Redirect/Get](https://en.wikipedia.org/wiki/Post/Redirect/Get) was used to process the data.
+
+The full page reload is slow and introduces navigational issues. Imagine you scrolled to a particular place on the left side, and then you fill in some form on the right side. After the submit your browser would get a redirect and then reload the fresh page again. Now position on the left side is reset again. That's not what you want.
+
+# Current hype: SPA (JSON over the wire)
 
 Most current frameworks decouple the backend and the frontend:
 The backend provides an API (REST or GraphQL) and sends data (usualy in JSON data format)
@@ -35,13 +41,13 @@ This has several benefits:
 
 # Countermovement: static site generators
 
-If you internet page is just a digital business card, you don't need dynmic content. Even for blogs withs up to
+If you internet page is just a digital business card, you don't need dynmic content. Even for blogs with up to
 some new pages per week you don't need an interactive solution. 
 
-SSG (static site generators) 
+SSG (static site generators) work for readonly access. In this case it does not matter much if you use a SPA or
+if you use several pages.
 
-
-# HTML over the wire
+# SPA with "HTML over the wire"
 
 Different use-cases need different solutions. And I think most software projects are between both ends.
 
@@ -52,7 +58,7 @@ For big companies, which have several software development teams, the clear cut 
 But for mid-sized companies this cut can introduce an additional overhead.
 
 ```
-Server ---[HTML]--> Client
+Server ---[HTML-Snippet]--> Client
 ```
 
 
