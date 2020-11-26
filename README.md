@@ -79,6 +79,7 @@ I think html-over-the-wire has these benefits:
 * [htmx](https://github.com/bigskysoftware/htmx)
 * [Stimulus](https://stimulusjs.org/)
 * [unpoly](https://github.com/unpoly/unpoly)
+* [VanillaJS](http://vanilla-js.com/)
 
 # Turbolinks
 
@@ -112,10 +113,17 @@ Some of the additional features:
 * Branch off interactions into modals, popups or drawers. Return to the main page when you're done.
 * Validate forms against server rules while filling in fields.
 
+Written in Coffeescript.
+
+
+# VanillaJS
+
+VanillaJS is a joke. It does not really exist. It just means: Don't use a framework, use JavaScript.
+
+
 # Conclusion
 
-Reloading the whole page via XMLHttpRequest is not enough. Turbolinks is out. HTMX is simple, that's nice, but Unpoly gives me much more. I will use Unpoly.
-
+I am unsure. I guess I will use no framework, and TypeScript instead of JS.
 
 # Related
 
