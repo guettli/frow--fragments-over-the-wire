@@ -44,8 +44,8 @@ This has several benefits:
 If you internet page is just a digital business card, you don't need dynmic content. Even for blogs with up to
 some new pages per week you don't need an interactive solution. 
 
-SSG (static site generators) work for readonly access. In this case it does not matter much if you use a SPA or
-if you use several pages.
+SSG (static site generators) are great for readonly pages. In this case it does not matter much if you use a SPA or
+if you create several pages.
 
 # SPA with "HTML over the wire"
 
@@ -73,7 +73,22 @@ I think html-over-the-wire has these benefits:
 * Testing is simplified. You don't need to test your JS code, if there is no JS code.
 * SEO: You can be sure that all content which is not loaded ondemand/lazy is visible and indexable by search engine bots. Modern search engines can execute JavaScript, but it is bit unclear how far this goes. If you send JSON from the server to the client, it could be the case that a search engine does not index this data properly. 
 
+# Use case
+
+Imagine you have one html page, and this page contains three forms. If the user submits one form, the page should not get reloaded. Only one form
+should get submitted, the other two forms should not send data to the server. After the form was processed on the server, the HTML returned by the 
+server should be displayed.
+
+# Do it yourself
+
+You can implement this yourself with [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest), [fetch()](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) or a library like [axios](https://github.com/axios/axios).
+
+But have a look at the libraries below, they provide you with nice features which help you do things in a declarative way (by using html attributes),
+instead of writing code (imperative).
+
 # Libraries
+
+Doing this yourself can get more difficult as you initialy though. Image the HTML returned by 
 
 * [turbolinks](https://github.com/turbolinks/turbolinks)
 * [htmx](https://github.com/bigskysoftware/htmx)
