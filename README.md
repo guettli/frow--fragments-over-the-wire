@@ -145,6 +145,7 @@ I am unsure. I guess I will use no framework, and TypeScript instead of JS.
 * [We're breaking up with JavaScript Frontends](http://triskweline.de/unpoly-rugb/#/). These slides contain nice charts visualizing the growth of complexity during the last years.
 * [Marcus Obst: New Wave of HTML](https://marcus-obst.de/wiki/Javascript%20-%20New%20Wave%20of%20HTML)
 * [Building GitHub-style Hovercards with StimulusJS and HTML-over-the-wire](https://boringrails.com/articles/hovercards-stimulus/)
+* [Using HTML as the Media Type for your API](https://blog.jonm.dev/posts/using-html-as-the-media-type-for-your-api/)
 
 # WOL
 
