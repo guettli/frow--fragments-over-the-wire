@@ -81,7 +81,9 @@ server should be displayed.
 
 # Do it yourself
 
-You can implement this yourself with [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest), [fetch()](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) or a library like [axios](https://github.com/axios/axios).
+Maybe you don't need React/Vue or an other fancy thing. You can create great pages with HTML+CSS+JS.
+
+You can implement html-ove-the-wire yourself with [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest), [fetch()](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) or a library like [axios](https://github.com/axios/axios).
 
 But have a look at the libraries below, they provide you with nice features which help you do things in a declarative way (by using html attributes),
 instead of writing code (imperative).
