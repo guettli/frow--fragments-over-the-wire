@@ -133,8 +133,9 @@ Written in Coffeescript.
 
 # VanillaJS
 
-VanillaJS is a joke. It does not really exist. It just means: Don't use a framework, use JavaScript.
+VanillaJS is a joke. It does not really exist. It just means: Don't use a framework, use HTML+CSS+JavaScript.
 
+See [Do it yourself](#do-it-yourself)
 
 # Conclusion
 
