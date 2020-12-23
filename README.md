@@ -37,6 +37,8 @@ This has several benefits:
 * With tools like react-native you can create native apps for mobile devices.
 * ...
 
+But if this is so great, why was SSR (server side rendering) invented? I won't answer this question, there are thousand blog posts copying the reason from each other to hype this new thing.
+
 # Countermovement: static site generators
 
 If you internet page is just a digital business card, you don't need dynmic content. Even for blogs with up to
@@ -45,7 +47,7 @@ some new pages per week you don't need an interactive solution.
 SSG (static site generators) are great for readonly pages. In this case it does not matter much if you use a SPA or
 if you create several pages.
 
-# SPA with "HTML over the wire"
+# HTML over the wire
 
 Different use-cases need different solutions. And I think most software projects are between both ends.
 
@@ -70,6 +72,9 @@ I think html-over-the-wire has these benefits:
 * You can stick to one programming language. If I can avoid JavaScript, than I will avoid it.
 * Testing is simplified. You don't need to test your JS code, if there is no JS code.
 * SEO: You can be sure that all content which is not loaded ondemand/lazy is visible and indexable by search engine bots. Modern search engines can execute JavaScript, but it is bit unclear how far this goes. If you send JSON from the server to the client, it could be the case that a search engine does not index this data properly. 
+
+Call it SSR (Server side rendering) or not. If I compare modern SSR frameworks like Nextjs/Nuxtjs with a 
+Django/Rails application plus htmx/unpoly, then one thing is clear for me: html-over-the-wire is boring and simple. That's why I will choose it.
 
 # Use case
 
