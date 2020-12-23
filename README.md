@@ -147,7 +147,7 @@ to deliver page changes over WebSocket. Since I don't plan to create a chat-appl
 
 # Conclusion
 
-I am unsure. I guess I will use no framework, and TypeScript instead of JS.
+I guess I will htmx. I developed a prototype with it, and it htmx is straight forward, well-documented and has a healthy community.
 
 # Related
 
