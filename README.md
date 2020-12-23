@@ -5,10 +5,8 @@
 
 To understand html-over-the-wire I would like to have a short look at the history of web development.
 
-There were:
-
 * The old way: Full page
-* Current hype: SPA (JSON over the wire)
+* Current hype: SPA ("JSON over the wire" together with React or Vue)
 * Countermovement: static site generators
 
 # The old way: Full page
@@ -24,7 +22,7 @@ The full page reload is slow and introduces navigational issues. Imagine you scr
 
 Most current frameworks decouple the backend and the frontend:
 The backend provides an API (REST or GraphQL) and sends data (usualy in JSON data format)
-to the client. The client renders this data via HTML.
+to the client. The client renders this data via JS.
 
 Popular examples: React, Angular, Vue, ....
 
