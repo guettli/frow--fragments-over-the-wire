@@ -97,6 +97,7 @@ Doing this yourself can get more difficult as you initialy though. Image the HTM
 * [Stimulus](https://stimulusjs.org/)
 * [unpoly](https://github.com/unpoly/unpoly)
 * [VanillaJS](http://vanilla-js.com/)
+* [hotwire](https://hotwire.dev/)
 
 # Turbolinks
 
@@ -138,6 +139,11 @@ Written in Coffeescript.
 VanillaJS is a joke. It does not really exist. It just means: Don't use a framework, use HTML+CSS+JavaScript.
 
 See [Do it yourself](#do-it-yourself)
+
+# Hotwire
+
+[Hotwire](https://hotwire.dev/) builds upon [turbo](https://turbo.hotwire.dev/). The primary focus seems to be
+to deliver page changes over WebSocket. Since I don't plan to create a chat-application, this is not my primary focus.
 
 # Conclusion
 
