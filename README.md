@@ -1,9 +1,8 @@
-# HTML over the wire
+# FrOW: HTML Fragments over the Wire
 
+# What is HTML Fragments over the Wire?
 
-# What is "html-over-the-wire"?
-
-To understand html-over-the-wire I would like to have a short look at the history of web development.
+To understand FrOW I would like to have a short look at the history of web development.
 
 * The old way: Full page
 * Current hype: SPA ("JSON over the wire" together with React or Vue)
@@ -47,7 +46,7 @@ some new pages per week you don't need an interactive solution.
 SSG (static site generators) are great for readonly pages. In this case it does not matter much if you use a SPA or
 if you create several pages.
 
-# HTML over the wire
+# FrOW: HTML Fragments over the Wire
 
 Different use-cases need different solutions. And I think most software projects are between both ends.
 
@@ -58,7 +57,7 @@ For big companies, which have several software development teams, the clear cut 
 But for mid-sized companies this cut can introduce an additional overhead.
 
 ```
-Server ---[HTML-Snippet]--> Client
+Server ---[HTML-Fragment]--> Client
 ```
 
 
@@ -150,7 +149,7 @@ to deliver page changes over WebSocket. Since I don't plan to create a chat-appl
 
 # Conclusion
 
-I guess I will htmx. I developed a prototype with it, and it htmx is straight forward, well-documented and has a healthy community.
+I will htmx. I developed a prototype with it, and it htmx is straight forward, well-documented and has a healthy community.
 
 # Related
 
