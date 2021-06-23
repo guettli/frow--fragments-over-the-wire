@@ -153,6 +153,7 @@ I will htmx. I developed a prototype with it, and it htmx is straight forward, w
 
 # Related
 
+* [HTMX Frontend Revolution (Slides)](https://docs.google.com/presentation/d/12dgaBnUgl4cmEkiOhUJL5hsbGQ6hB5sslDuozmBjVUA/edit?usp=sharing)
 * [We're breaking up with JavaScript Frontends](http://triskweline.de/unpoly-rugb/#/). These slides contain nice charts visualizing the growth of complexity during the last years.
 * [Marcus Obst: New Wave of HTML](https://marcus-obst.de/wiki/Javascript%20-%20New%20Wave%20of%20HTML)
 * [Building GitHub-style Hovercards with StimulusJS and HTML-over-the-wire](https://boringrails.com/articles/hovercards-stimulus/)
