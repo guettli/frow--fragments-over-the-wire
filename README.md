@@ -6,7 +6,7 @@ To understand FrOW I would like to have a short look at the history of web devel
 
 * The old way: Full page
 * Current hype: SPA ("JSON over the wire" together with React or Vue)
-* Countermovement: static site generators
+* static site generators
 
 # The old way: Full page
 
@@ -38,7 +38,7 @@ This has several benefits:
 
 But if this is so great, why was SSR (server side rendering) invented? I won't answer this question, there are thousand blog posts copying the reason from each other to hype this new thing.
 
-# Countermovement: static site generators
+# static site generators
 
 If you internet page is just a digital business card, you don't need dynmic content. Even for blogs with just
 few new pages per week you don't need an interactive solution. 
@@ -54,7 +54,7 @@ As soon as you want to receive some input from the user, the SSG approach with p
 
 For big companies, which have several software development teams, the clear cut between front-end and back-end is fine.
 
-But for mid-sized companies this cut can introduce an additional overhead.
+But for mid-sized proejcts this cut can introduce an additional overhead.
 
 I am very happy that today (autumn 2020) more developers realize that there is a way to keep things simple by sending html snippets/fragements
 from the server to the client.
