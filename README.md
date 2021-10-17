@@ -32,7 +32,7 @@ Server ---[JSON]--> Client (React/Angular/Vue) --> HTML
 This has several benefits:
 
 * Developers don't need to know everything. Some can focus on the backend, some can focus on the frontend.
-* The same API could be used for several purposes: Once by the frontned in the browser, once for intergrating a third party application.
+* The same API could be used for several purposes: Once by the frontend in the browser, once for intergrating a third party application.
 * With tools like react-native you can create native apps for mobile devices.
 * ...
 
@@ -40,8 +40,8 @@ But if this is so great, why was SSR (server side rendering) invented? I won't a
 
 # Countermovement: static site generators
 
-If you internet page is just a digital business card, you don't need dynmic content. Even for blogs with up to
-some new pages per week you don't need an interactive solution. 
+If you internet page is just a digital business card, you don't need dynmic content. Even for blogs with just
+few new pages per week you don't need an interactive solution. 
 
 SSG (static site generators) are great for readonly pages. In this case it does not matter much if you use a SPA or
 if you create several pages.
@@ -56,20 +56,19 @@ For big companies, which have several software development teams, the clear cut 
 
 But for mid-sized companies this cut can introduce an additional overhead.
 
+I am very happy that today (autumn 2020) more developers realize that there is a way to keep things simple by sending html snippets/fragements
+from the server to the client.
+
 ```
 Server ---[HTML-Fragment]--> Client
 ```
-
-
-I am very happy that today (autumn 2020) more developers realize that there is a way to keep things simple by sending html snippets/fragements
-from the server to the client.
 
 I think html-over-the-wire has these benefits:
 
 * Much smaller technology stack. It is much easier to learn (for example onboarding new employees).
 * Input validation needs to be done on the server side anyways. No need to re-invent this in the frontend. If you use a library like the django forms library you get both in one step: A form in HTML format and a way to validate the input the server receives.
 * You can stick to one programming language. If I can avoid JavaScript, than I will avoid it.
-* Testing is simplified. You don't need to test your JS code, if there is no JS code.
+* Testing is simplified. You don't need to test your JS code, since there is no JS code.
 * SEO: You can be sure that all content which is not loaded ondemand/lazy is visible and indexable by search engine bots. Modern search engines can execute JavaScript, but it is bit unclear how far this goes. If you send JSON from the server to the client, it could be the case that a search engine does not index this data properly. 
 
 Call it SSR (Server side rendering) or not. If I compare modern SSR frameworks like Nextjs/Nuxtjs with a 
@@ -78,7 +77,7 @@ Django/Rails application plus htmx/unpoly, then one thing is clear for me: html-
 # Use case
 
 Imagine you have one html page, and this page contains three forms. If the user submits one form, the page should not get reloaded. Only one form
-should get submitted, the other two forms should not send data to the server. After the form was processed on the server, the HTML returned by the 
+should get submitted, the other two forms should not send data to the server. After the form was processed on the server, the HTML fragment returned by the 
 server should be displayed.
 
 # Do it yourself
@@ -91,8 +90,6 @@ But have a look at the libraries below, they provide you with nice features whic
 instead of writing code (imperative).
 
 # Libraries
-
-Doing this yourself can get more difficult as you initialy though. Image the HTML returned by 
 
 * [turbolinks](https://github.com/turbolinks/turbolinks)
 * [htmx](https://github.com/bigskysoftware/htmx)
