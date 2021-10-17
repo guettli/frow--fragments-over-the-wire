@@ -76,7 +76,7 @@ I think html-over-the-wire has these benefits:
 * SEO: You can be sure that all content which is not loaded ondemand/lazy is visible and indexable by search engine bots. Modern search engines can execute JavaScript, but it is bit unclear how far this goes. If you send JSON from the server to the client, it could be the case that a search engine does not index this data properly. 
 
 Call it SSR (Server side rendering) or not. If I compare modern SSR frameworks like Nextjs/Nuxtjs with a 
-Django/Rails application plus htmx/unpoly, then one thing is clear for me: html-over-the-wire is boring and simple. That's why I will choose it.
+Django/Rails application plus htmx/unpoly/hotwire, then one thing is clear for me: html-over-the-wire is boring and simple. That's why I will choose it.
 
 # Use case
 
