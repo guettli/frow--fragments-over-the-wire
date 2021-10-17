@@ -135,7 +135,8 @@ See [Do it yourself](#do-it-yourself)
 # Hotwire
 
 [Hotwire](https://hotwire.dev/) builds upon [turbo](https://turbo.hotwire.dev/). The primary focus seems to be
-to deliver page changes over WebSocket. Since I don't plan to WebSocket based solution.
+to deliver page changes over WebSocket. I don't plan to create a WebSocket based solution. Maybe hotwire is really great.
+I don't know. I have not found an easy to understand example while browsing their pages.
 
 # Conclusion
 
