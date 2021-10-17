@@ -140,7 +140,7 @@ I don't know. I have not found an easy to understand example while browsing thei
 
 # Conclusion
 
-I will htmx. I developed a prototype with it, and it htmx is straight forward, well-documented and has a healthy community.
+I will use (??) htmx. I developed a prototype with it, and it htmx is straight forward, well-documented and has a healthy community.
 
 # Related
 
