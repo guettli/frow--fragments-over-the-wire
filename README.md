@@ -95,16 +95,11 @@ instead of writing code (imperative).
 
 # Libraries
 
-* [turbolinks](https://github.com/turbolinks/turbolinks)
 * [htmx](https://github.com/bigskysoftware/htmx)
-* [Stimulus](https://stimulusjs.org/)
 * [unpoly](https://github.com/unpoly/unpoly)
 * [VanillaJS](http://vanilla-js.com/)
 * [hotwire](https://hotwire.dev/)
 
-# Turbolinks
-
-[turbolinks](https://github.com/turbolinks/turbolinks) reloads the whole page with a XMLHttpRequest. If this page contains additionaly sources (like a new JS/CSS file), then Turbolinks loads it. 
 
 # HTMX
 
@@ -117,12 +112,6 @@ Example:
     Click Me
   </button>
   ```
-
-# Stimulus
-
-You sprinkle your HTML with controller, target, and action attributes. Then you write a compatible controller to process the event.
-
-It looks dated, since the last release is almost two years old (Januaryx 2019).
 
 # Unpoly
 
@@ -146,7 +135,7 @@ See [Do it yourself](#do-it-yourself)
 # Hotwire
 
 [Hotwire](https://hotwire.dev/) builds upon [turbo](https://turbo.hotwire.dev/). The primary focus seems to be
-to deliver page changes over WebSocket. Since I don't plan to create a chat-application, this is not my primary focus.
+to deliver page changes over WebSocket. Since I don't plan to WebSocket based solution.
 
 # Conclusion
 
