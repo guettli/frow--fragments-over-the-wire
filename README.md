@@ -59,6 +59,10 @@ But for mid-sized proejcts this cut can introduce an additional overhead.
 I am very happy that today (autumn 2020) more developers realize that there is a way to keep things simple by sending html snippets/fragements
 from the server to the client.
 
+It usualy works like this: The first http response to the client is a full html page. This response contains a head and a body tag. This page does not need JS to be rendered. This provides great web vitals since the screen can be rendered immediately (without waiting for JavaScript loading data from JSON-APIs).
+
+Then updates to the page get done via html fragments. These fragments usualy don't contain a head or body tag.
+
 ```
 Server ---[HTML-Fragment]--> Client
 ```
