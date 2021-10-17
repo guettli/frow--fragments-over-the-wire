@@ -15,7 +15,7 @@ In the "good old days" before SPA (Single Page Applications) the browser loaded 
 
 The user could send data to the serve by filling out a form, and [Post/Redirect/Get](https://en.wikipedia.org/wiki/Post/Redirect/Get) was used to process the data.
 
-The full page reload is slow and introduces navigational issues. Imagine you scrolled to a particular place on the left side, and then you fill in some form on the right side. After the submit your browser would get a redirect and then reload the fresh page again. Now position on the left side is reset again. That's not what you want.
+The full page reload is slow and introduces navigational issues. Imagine you scrolled to a particular place on the page, and then you fill in a form. After the submit your browser would get a redirect and then reload the fresh page again. Now the position on the page was reset. That's not what you want.
 
 # Current hype: SPA (JSON over the wire)
 
