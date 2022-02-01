@@ -99,9 +99,10 @@ instead of writing code (imperative).
 * [unpoly](https://github.com/unpoly/unpoly)
 * [VanillaJS](http://vanilla-js.com/)
 * [hotwire](https://hotwire.dev/)
+* [Structured Page Fragments](http://youtube.github.io/spfjs/)
 
 
-# HTMX
+## HTMX
 
 [htmx](https://github.com/bigskysoftware/htmx) is the successor to intercooler.js. It swaps parts of the page (not the whole page like Turbolinks).
 
@@ -113,7 +114,7 @@ Example:
   </button>
   ```
 
-# Unpoly
+## Unpoly
 
 [Unpoly](https://github.com/unpoly/unpoly) allows you to swap parts of the page, but provides many additional features.
 
@@ -126,17 +127,20 @@ Some of the additional features:
 Written in Coffeescript.
 
 
-# VanillaJS
+## VanillaJS
 
 VanillaJS is a joke. It does not really exist. It just means: Don't use a framework, use HTML+CSS+JavaScript.
 
 See [Do it yourself](#do-it-yourself)
 
-# Hotwire
+## Hotwire
 
 [Hotwire](https://hotwire.dev/) builds upon [turbo](https://turbo.hotwire.dev/). The primary focus seems to be
 to deliver page changes over WebSocket. I don't plan to create a WebSocket based solution. Maybe hotwire is really great.
 I don't know. I have not found an easy to understand example while browsing their pages.
+
+## Structured Page Fragments 
+[Structured Page Fragments](http://youtube.github.io/spfjs/) is the framework used by youtube before the polymer update. It sends a mix of JSON and HTML over the wire.
 
 # Conclusion
 
