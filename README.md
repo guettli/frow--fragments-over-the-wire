@@ -142,6 +142,22 @@ I don't know. I have not found an easy to understand example while browsing thei
 ## Structured Page Fragments 
 [Structured Page Fragments](http://youtube.github.io/spfjs/) is the framework used by youtube before the polymer update. It sends a mix of JSON and HTML over the wire.
 
+# Rethinking “Smart” re-use of APIs
+
+If you use the html-fragments-over-the-wire approach, you don't need a JSON-API for your frontend. 
+
+First a short story: Several years ago, when I hear the first time of Angular, I was amazed. I thought:
+
+> This is the future: The server sends clean JSON to the client. And this API can be used for the GUI and for a machine-to-machine communication (RPC). 
+
+But this is nonsense. You want to improve a GUI daily. But an API for machine-to-machine communication must be stable. Have you have thought about doing A-B-testing for a RPC?
+
+Related slide: [Rethinking “Smart” re-use of APIs](https://docs.google.com/presentation/d/12dgaBnUgl4cmEkiOhUJL5hsbGQ6hB5sslDuozmBjVUA/edit#slide=id.gb6b0109123_0_2)
+
+If you want performant machine-to-machine communication, then you might want to use gRPC and not a JSON based solution.
+
+
+
 # Conclusion
 
 I guess I will use htmx. I developed a prototype with it, and it is straight forward, well-documented and has a healthy community.
