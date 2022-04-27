@@ -160,7 +160,7 @@ If you want performant machine-to-machine communication, then you might want to 
 
 # Conclusion
 
-I guess I will use htmx. I developed a prototype with it, and it is straight forward, well-documented and has a healthy community.
+I settled on htmx. I developed a prototype with it, and it is straight forward, well-documented and has a healthy community.
 
 # Related
 
@@ -169,6 +169,7 @@ I guess I will use htmx. I developed a prototype with it, and it is straight for
 * [Marcus Obst: New Wave of HTML](https://marcus-obst.de/wiki/Javascript%20-%20New%20Wave%20of%20HTML)
 * [Building GitHub-style Hovercards with StimulusJS and HTML-over-the-wire](https://boringrails.com/articles/hovercards-stimulus/)
 * [Using HTML as the Media Type for your API](https://blog.jonm.dev/posts/using-html-as-the-media-type-for-your-api/)
+* [Django htmx fun](https://github.com/guettli/django-htmx-fun) A simple demo application how to use htmx with Django.
 
 # WOL
 
