@@ -98,7 +98,7 @@ instead of writing code (imperative).
 * [htmx](https://github.com/bigskysoftware/htmx)
 * [unpoly](https://github.com/unpoly/unpoly)
 * [VanillaJS](http://vanilla-js.com/)
-* [hotwire](https://hotwire.dev/)
+* [hotwire](https://hotwired.dev/)
 * [Structured Page Fragments](http://youtube.github.io/spfjs/)
 
 
@@ -135,7 +135,7 @@ See [Do it yourself](#do-it-yourself)
 
 ## Hotwire
 
-[Hotwire](https://hotwire.dev/) builds upon [turbo](https://turbo.hotwire.dev/). The primary focus seems to be
+[Hotwire](https://hotwired.dev/) builds upon [turbo](https://turbo.hotwired.dev/). The primary focus seems to be
 to deliver page changes over WebSocket. I don't plan to create a WebSocket based solution. Maybe hotwire is really great.
 I don't know. I have not found an easy to understand example while browsing their pages.
 
